@@ -1,7 +1,7 @@
 import express from "express";
 import { dbConnection } from "./database/dbConnection.js";
 import dotenv from "dotenv";
-import messageRouter from "./router/messageRouter.js";
+import messageRouter from "./Router/messageRouter.js";
 import cors from "cors";
 
 const app = express();
